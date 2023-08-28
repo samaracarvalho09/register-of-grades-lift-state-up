@@ -1,0 +1,61 @@
+.headerTable {
+  background-color: #f9f9fc;
+ 
+}
+
+.headerTable th:first-child {
+  text-align: center;
+}
+.bodyTable {
+  border-bottom: 1px solid #eeeef2;
+  background: rgba(57, 39, 255, 0.05);
+  border: none;
+}
+
+th,
+td {
+  padding: 14px 16px;
+}
+
+th,
+tr,
+td {
+  border: none;
+  text-align: start;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 0.5rem;
+}
+
+.bodyTable td:first-child {
+  text-align: center;
+}
+
+.nameCol {
+  width: 185px;
+}
+
+.containerTable {
+  width: 90vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  
+  padding: 30px;
+
+
+
+  /* width: 100vw;
+  height: 100vh; */
+
+  /* background-color: lightblue; */
+}
+.closeButton {
+  text-align: end;
+  cursor: pointer;
+}

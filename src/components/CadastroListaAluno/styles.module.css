@@ -1,0 +1,100 @@
+.containerCadastroAluno {
+  max-width: 524px;
+  /* height: 352px; */
+  background: #f5f4ff;
+  padding: 54px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  
+}
+
+.containerInputAluno {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputAluno {
+  width: 420px;
+  border-radius: 6px;
+  background: #cdcdd2;
+  padding: 16px 15px;
+  margin-bottom: 20px;
+}
+
+label,
+input:placeholder {
+  color: #848496;
+  font-family: Inter;
+  font-size: 14px;
+}
+
+label {
+  padding-bottom: 6px;
+}
+
+input {
+  outline: 0;
+  border: none;
+}
+
+.containerNotas {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.containerInputNota {
+  display: flex;
+  flex-direction: column;
+}
+
+.notas {
+  width: 104px;
+  border-radius: 6px;
+  background: #cdcdd2;
+  text-align: center;
+  padding-block: 8px;
+}
+
+.containerButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+}
+
+button {
+  color: #4c4c60;
+  text-align: center;
+  font-family: Inter;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  background: #cdcdd2;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #adadad;
+}
+
+.buttonCadastrar {
+  padding: 9px 44px;
+  width: fit-content;
+  height: min-content;
+}
+
+.buttonAcessarLista {
+  padding: 9px 34px;
+  width: fit-content;
+
+  height: min-content;
+}
